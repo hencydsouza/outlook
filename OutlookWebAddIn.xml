@@ -19,7 +19,7 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="My Office Add-in" />
   <Description DefaultValue="My First Outlook add-in"/>
-  <IconUrl DefaultValue="https://github.com/hencydsouza/outlook/blob/main/Images/Icon64.png"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/Images/Icon64.png"/>
 
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -43,7 +43,7 @@
       <DesktopSettings>
       <!-- https://raw.githubusercontent.com/hencydsouza/outlook/main/Images/Icon80.png -->
         <!-- <SourceLocation DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/MessageRead.html"/> -->
-        <SourceLocation DefaultValue="https://github.com/hencydsouza/outlook/blob/main/MessageRead.html"/>
+        <SourceLocation DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/MessageRead.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -102,13 +102,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://github.com/hencydsouza/outlook/blob/main/Images/Icon32.png"/>
-        <bt:Image id="icon32" DefaultValue="https://github.com/hencydsouza/outlook/blob/main/Images/Icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://github.com/hencydsouza/outlook/blob/main/Images/Icon80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/Images/Icon32.png"/>
+        <bt:Image id="icon32" DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/Images/Icon32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/Images/Icon80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://github.com/hencydsouza/outlook/blob/main/Functions/FunctionFile.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/hencydsouza/outlook/blob/main/MessageRead.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/Functions/FunctionFile.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/hencydsouza/outlook/main/MessageRead.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
